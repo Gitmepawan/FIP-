@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Web Page</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="container">
+        
+    <header id="mainHeader">             
+      <div> 
+          <img src="images/logo_asc.svg" width="125" alt="logo">        
+      </div>
+      <nav id="navigation"> <h2 class="hidden">Navigation bar</h2>        
+        <ul> 
+          <li><a href="index.html" id="highlighted">HOME</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav><!--end logo-->      
+  </header><!--end mainHeader-->
+
+  <main>
+    <section class="hero" id="contactHero">
+      <h2>More from us</h2>
+
+      </section>
+      <section id="mainGallery" class="grid"> <!--start mainGallery-->
+          <section class="galleryImageCon"> <!--start galleryImageCon-->
+              <img src="images/contact_one.jpg">
+          </section><!--end galleryImageCon-->
+          <section class="galleryImageCon"> <!--start galleryImageCon-->
+              <img src="images/contact_two.jpg">
+
+       
+    
+    <section id="mainContact" class="grid"> <!--main contact begin-->
+                <h2>Contact us</h2>
+        <section id="contactArea"><!--Contact area-->
+            <h2 class="hidden">Contact form</h2> 
+        <form id="contactForm" action="form.php" method="post">
+                <label for="name">Name: <span class="required">(required)</span></label>
+                <input type="text" required id="name" name="fullName" size="28" placeholder="please enter your name">
+                
+                <label for="email">Email: </label>
+                <input type="email" required id="email" size="28" placeholder="Enter your Email id">
+                
+                
+                <label for="phone">Phonenumber: <span class="required">(required)</span></label>
+                <input type="tel" required id="phone" size="28" placeholder="Enter Phone Number">
+                
+                <label for="comments">Comments:</label>
+                <textarea name="Feedback" id="comments" required cols="50" rows="8"></textarea>
+                
+              
+               
+                <input id="submit" type="submit" value="Next">
+        </form>
+        </section><!--end contactArea-->  
+        
+        <section id="mapArea"><!--start mapArea-->
+            <h3>VISIT US</h3>
+            <ul>
+                <li>1200-cheapside, </li>
+                <li>London, Ontario </li>
+                <li>Phone: 2265808579</li>
+                <li>EMAIL ADDRESS: refurbishedcosmetic.ca</li>
+            </ul>    
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23337.705409167316!2d-81.22974399999998!3d43.01589995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eedbf6196a21f%3A0x31cf2678fd7cc53!2sLondon%2C%20ON%20N5Y!5e0!3m2!1sen!2sca!4v1649627691167!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> width="380" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section><!--end of map section-->      
+    </section><!--end of contact-->
+  </main>
+
+
+        <header id="mainHeader">             
+          <div> 
+            <img src="images/logo_asc.svg" width="125" alt="logo">        
+          </div>
+          <nav id="navigation"> <h2 class="hidden">Navigation bar</h2>        
+            <ul> 
+              <li><a href="index.html" id="highlighted">HOME</a></li>
+              <li><a href="gallery.html">GALLERY</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+             </ul>     
+            </nav><!--end logo-->      
+ 
+            <div>
+              <img src="images/facebook.svg" alt="fb" height="50">
+              <img src="images/twitter.svg" alt="fb" height="50">
+              <img src="images/youtube.svg" alt="fb" height="50">
+            </div>
+        </header><!--end mainHeader-->
+      
+
+    </div><!--end container-->
+    <script src="js/main.js"></script>    
+</body>
+</html>
